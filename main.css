@@ -1,0 +1,29 @@
+:root {
+	--black: #000000;
+	--beige: beige;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	background-color:var(--beige)
+}
+
+article {
+	border-bottom:1px solid black;
+}
+
+article:last-of-type {
+	border-bottom:none;
+}
+
+.hidden {
+	display:none;
+}
+
+.active-filter {
+	text-decoration: underline;
+}
