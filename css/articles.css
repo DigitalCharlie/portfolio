@@ -134,7 +134,7 @@ article {
 	.project-topline {
 		flex-direction: row;
 		gap:25px;
-		align-items: center;
+		align-items: baseline;
 		margin-bottom:0;
 	}
 }

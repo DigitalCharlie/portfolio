@@ -21,7 +21,7 @@ const createWorkArticles = (projects) => {
 				project.type === 'software' ? `<p class="project-text"><a href="${project.github}" target="_blank">Visit the site</a> or <a href="${project.github}" target="_blank">check out the project on Github</a></p>` : ''
 			}
 			${
-				project.type === 'campaign' ? `<p class="project-text"><a href="${project.github}" target="_blank">Read news coverage of the ${project.project}</a></p>` : ''
+				project.type === 'campaign' ? `<p class="project-text"><a href="${project.github}" target="_blank">Read the news coverage</a></p>` : ''
 			}
 			<div class="project-images">
 				${imagesForAdding.join('')}
