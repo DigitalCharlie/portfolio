@@ -5,7 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Digital Charlie</title>
-	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/articles.css" />
 </head>
 <body>
 	<main>
@@ -23,17 +24,25 @@
 			</ul>
 		</section>
 		<section class="work">
-			<h1>Selected Work</h1>
-			<ul class="work-filter">
-				<li id="all-work" class="active-filter">All</li>
-				<li id="software-work">Software Engineering</li>
-				<li id="campaign-work">Campaigning</li>
-			</ul>
+			<div class="selected-work-header">
+				<h1>Selected Work</h1>
+				<ul class="work-filter">
+					<li id="all-work" class="active-filter">All</li>
+					<li id="software-work">Software Engineering</li>
+					<li id="campaign-work">Campaigning</li>
+				</ul>
+			</div>
 			<div id="work-container">
-
 			</div>
 		</section>
 	</main>
+	<dialog id="image-modal">
+		<div>
+			<button id="close-modal">X</button>
+			<img src="" id="modal-image"/>
+			<p id="modal-text"></p>
+		</div>
+	</dialog>
 	<script src="js/work.js"></script>
 	<script src="js/filter.js"></script>
 	<script src="js/articles.js"></script>

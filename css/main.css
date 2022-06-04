@@ -1,7 +1,7 @@
 :root {
 	--black: #000000;
 	--gray: rgb(120, 120, 120);
-	--beige: beige;
+	--beige: #f6f6ed;
 }
 
 * {
@@ -13,8 +13,16 @@ body {
 	margin:0;
 	background-color:var(--beige);
 	font-family:sans-serif;
-	font-size:1.25em;
+	font-size:1.1em;
 	line-height: 175%;
+}
+
+main {
+	padding:10px;
+}
+
+.work {
+	margin-top:40px;
 }
 
 /* TEXT AND STUFF! */
@@ -29,14 +37,19 @@ h3 {
 	margin:0;
 }
 
+p, a {
+	font-weight:100;
+}
+
 ul {
 	margin-top:0;
 }
 
-.subheader, .work-filter {
+.subheader, .work-filter, .project-text {
 	margin-top:2px;
 	margin-bottom:0;
 	font-size:.85em;
+	line-height:150%;
 }
 
 a {
@@ -73,45 +86,29 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* THE ARTICLES! */
-
-article {
-	border-bottom:1px solid black;
-	padding:15px 0 30px;
-}
+/* TRANSITIONS FOR FILTERS */
 
 .hidden {
 	display:none;
 }
 
-.project-topline {
-	display:flex;
-	justify-content: space-between;
+#work-container[fading-in] {
+	animation: fade-in 350ms forwards;
 }
 
-.project > p {
-	margin:5px 0;
+#work-container[fading-out] {
+	animation: fade-out 350ms forwards;
 }
 
-.project-images {
-	display:flex;
-	gap:15px;
-}
-
-.work-image {
-	max-height:125px;
-	cursor: pointer;
-}
-
-article:last-of-type {
-	border-bottom:none;
-}
 
 @media only screen and (min-width: 992px) {
+	body {
+		font-size:1.25em;
+	}
 	main {
 		display:flex;
 		gap:10px;
-		/* padding:0 5vw; */
+		padding:0;
 	}
 
 	section {
@@ -128,5 +125,6 @@ article:last-of-type {
 
 	.work {
 		flex:2;
+		margin-top:0;
 	}
 }

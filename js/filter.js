@@ -1,6 +1,21 @@
+const workContainer = document.getElementById('work-container')
 const allWork = document.getElementById('all-work')
 const campaignWork = document.getElementById('campaign-work')
 const softwareWork = document.getElementById('software-work')
+
+const runFilter = (filter) => {
+	workContainer.setAttribute('fading-out', '')
+	workContainer.addEventListener('animationend', () => {
+		if (filter === 'all') allFilter()
+		if (filter === 'campaign') campaignFilter()
+		if (filter === 'software') softwareFilter()
+		workContainer.removeAttribute('fading-out')
+		workContainer.setAttribute('fading-in', '')
+		workContainer.addEventListener('animationend', () => {
+			workContainer.removeAttribute('fading-in')
+		}, {once:true})
+	}, {once:true})
+}
 
 const allFilter = () => {
 	const allProjects = document.querySelectorAll(".project")
@@ -40,6 +55,6 @@ const softwareFilter = () => {
 	softwareWork.classList.add("active-filter")
 }
 
-allWork.addEventListener("click", allFilter)
-campaignWork.addEventListener("click", campaignFilter)
-softwareWork.addEventListener("click", softwareFilter)
+allWork.addEventListener("click", () => runFilter('all'))
+campaignWork.addEventListener("click", () => runFilter('campaign'))
+softwareWork.addEventListener("click", () => runFilter('software'))
