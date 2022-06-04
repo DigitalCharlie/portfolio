@@ -100,6 +100,7 @@ article {
 
 .work-image {
 	max-height:125px;
+	cursor: pointer;
 }
 
 article:last-of-type {
