@@ -10,7 +10,7 @@ const createWorkArticles = (projects) => {
 		projectToAdd.classList.add(project.type, "project")
 		projectToAdd.innerHTML = 
 			`
-			<h1>${project.project}</h1>
+			<h3>${project.project}</h3>
 			<p>${project.role}</p>
 			<p>${project.description}</p>
 			${
