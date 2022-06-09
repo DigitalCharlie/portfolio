@@ -1,5 +1,123 @@
 const pastWork = [
 	{
+		project:"A Day at the Fair",
+		role:"Developer",
+		type:"software",
+		description:`I built an adaptation of the Dungeons and Dragons module, "A Day at the Faire," which is a Groundhog Day inspired module where adventurers are stuck in a time loop and have to find their way out.
+		<br /><br />
+		I built the game as a choose your own adventure game that loops back on itself with shifting options using HTML, CSS and javascript. The game takes 1-3 hours to complete.`,
+		github:"https://github.com/DigitalCharlie/a-day-at-the-fair",
+		site:"https://www.digitalcharlie.com/a-day-at-the-fair/",
+		images:[
+			{
+				image:"images/fair/intro-screenshot.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/fair/continue-screenshot.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/fair/new-day.gif",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/fair/history-screenshot.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			}
+		]
+	},
+	{
+		project:"The Bargewright Inn",
+		role:"Developer",
+		type:"software",
+		description:`As an avid Dungeons and Dragons player, I have a dozen adventurer's league characters and have had to track them across paper logs, Roll20 documents and spreadsheets. I built a solution to handle character management that makes it easy to track a character's progress through their adventuring career.
+		<br /><br />
+		The Bargewright Inn includes managing their magic item inventory, story awards, and trade logs. The project was built in React using HTML, CSS and Javascript`,
+		github:"https://github.com/DigitalCharlie/bargewright-2-frontend",
+		site:"https://bargewright.netlify.app/",
+		images:[
+			{
+				image:"images/bargewright/charhome.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/bargewright/loginscreen.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/bargewright/magicitem.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/bargewright/newadv.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/bargewright/userhome.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			}
+		]
+	},
+	{
+		project:"Fight the TPP",
+		role:"Developer & Campaigner",
+		type:"software",
+		description:`To bring attention to the Trans Pacific Partnership I built a pair of websites intended to get people talking. The first was a site that looks like a page where one can download the text, but upon trying to click the link, the button would run away from the mouse.
+		<br /><br />The second site presented a series of the worse parts of the TPP with amusing ways of saying, "fuck that." Together, they generated millions of hits and tens of thousands of new petition signatures.`,
+		github:"https://github.com/DigitalCharlie/readthetpp",
+		site:"http://old.readthetpp.com/",
+		images:[
+			{
+				image:"images/tpp/read-tpp-before.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/tpp/read-tpp-after.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/tpp/read-tpp.gif",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/tpp/fuck-tpp.png",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			}
+		]
+	},
+	{
+		project:"March for Real Climate Leadership",
+		role:"Digital Coordinator",
+		type:"campaign",
+		description:`Despite a variety of progressive policies, California has a history rife with fossil fuel extraction that disproportinately harms Black and brown communities across the state. Fracking is a central part of that over the last decade and a half. 
+		<br /><br />
+		Following my work on the People's Climate March, I served as the digital coordinator for a march focused on calling for an end to fracking in California. 8,000 people marched through the streets of Oakland, and at the time was the largest anti-fracking rally ever held in the United States.`,
+		news:"https://www.sfgate.com/bayarea/article/Anti-fracking-demonstrators-march-through-Oakland-6068760.php",
+		images:[
+			{
+				image:"images/mrcl/mrcl-frack-whack.jpeg",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/mrcl/mrcl-hs-group.jpeg",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/mrcl/mrcl-march-front.jpeg",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/mrcl/mrcl-meme.jpeg",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			},
+			{
+				image:"images/mrcl/mrcl-rally.jpeg",
+				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+			}
+		]
+	},
+	{
 		project:"People's Climate March - 2014",
 		role:"Digital Coordinator",
 		type:"campaign",
@@ -64,97 +182,6 @@ const pastWork = [
 		]
 	},
 	{
-		project:"March for Real Climate Leadership",
-		role:"Digital Coordinator",
-		type:"campaign",
-		description:`Despite a variety of progressive policies, California has a history rife with fossil fuel extraction that disproportinately harms Black and brown communities across the state. Fracking is a central part of that over the last decade and a half. 
-		<br /><br />
-		Following my work on the People's Climate March, I served as the digital coordinator for a march focused on calling for an end to fracking in California. 8,000 people marched through the streets of Oakland, and at the time was the largest anti-fracking rally ever held in the United States.`,
-		news:"https://www.sfgate.com/bayarea/article/Anti-fracking-demonstrators-march-through-Oakland-6068760.php",
-		images:[
-			{
-				image:"images/mrcl/mrcl-frack-whack.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/mrcl/mrcl-hs-group.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/mrcl/mrcl-march-front.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/mrcl/mrcl-meme.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/mrcl/mrcl-rally.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
-		]
-	},
-	{
-		project:"A Day at the Fair",
-		role:"Developer",
-		type:"software",
-		description:`I built an adaptation of the Dungeons and Dragons module, "A Day at the Faire," which is a Groundhog Day inspired module where adventurers are stuck in a time loop and have to find their way out.
-		<br /><br />
-		I built the game as a choose your own adventure game that loops back on itself with shifting options using HTML, CSS and javascript. The game takes 1-3 hours to complete.`,
-		github:"https://github.com/DigitalCharlie/a-day-at-the-fair",
-		site:"https://www.digitalcharlie.com/a-day-at-the-fair/",
-		images:[
-			{
-				image:"images/fair/intro-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/fair/continue-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/fair/new-day.gif",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/fair/history-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
-		]
-	},
-	{
-		project:"The Bargewright Inn",
-		role:"Developer",
-		type:"software",
-		description:`As an avid Dungeons and Dragons player, I have a dozen adventurer's league characters and have had to track them across paper logs, Roll20 documents and spreadsheets. I built a solution to handle character management that makes it easy to track a character's progress through their adventuring career.
-		<br /><br />
-		The Bargewright Inn includes managing their magic item inventory, story awards, and trade logs. The project was built in React using HTML, CSS and Javascript`,
-		github:"https://github.com/DigitalCharlie/bargewright-2-frontend",
-		site:"https://bargewright.netlify.app/",
-		images:[
-			{
-				image:"images/bargewright/charhome.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/loginscreen.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/magicitem.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/newadv.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/userhome.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
-		]
-	},
-	{
 		project:"The Roaming Spoon",
 		role:"Developer",
 		type:"software",
@@ -190,31 +217,4 @@ const pastWork = [
 			}
 		]
 	},
-	{
-		project:"Fight the TPP",
-		role:"Developer & Campaigner",
-		type:"software",
-		description:`To bring attention to the Trans Pacific Partnership I built a pair of websites intended to get people talking. The first was a site that looks like a page where one can download the text, but upon trying to click the link, the button would run away from the mouse.
-		<br /><br />The second site presented a series of the worse parts of the TPP with amusing ways of saying, "fuck that." Together, they generated millions of hits and tens of thousands of new petition signatures.`,
-		github:"https://github.com/DigitalCharlie/readthetpp",
-		site:"http://old.readthetpp.com/",
-		images:[
-			{
-				image:"images/tpp/read-tpp-before.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/tpp/read-tpp-after.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/tpp/read-tpp.gif",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/tpp/fuck-tpp.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
-		]
-	}
 ]
