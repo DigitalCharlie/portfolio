@@ -18,10 +18,10 @@ const createWorkArticles = (projects) => {
 			</div>
 			<p class="project-text short" id=${`proj-desc-${idx}`}>${project.description}</p>
 			${
-				project.type.includes('software') ? `<p class="project-text"><span class="show-toggle" id=${`show-${idx}`}>Show the full description</span>, <a href="${project.site}" target="_blank">visit the site</a> or <a href="${project.github}" target="_blank">check out the project on Github</a></p>` : ''
+				project.type.includes('software') || project.type === 'both' ? `<p class="project-text"><span class="show-toggle" id=${`show-${idx}`}>Show the full description</span>, <a href="${project.site}" target="_blank">visit the site</a> or <a href="${project.github}" target="_blank">check out the project on Github</a></p>` : ''
 			}
 			${
-				project.type.includes('campaign') ? `<p class="project-text"><span class="show-toggle" href="" id=${`show-${idx}`}>Show the full description</span> or <a href="${project.news}" target="_blank">read the news coverage</a></p>` : ''
+				project.type === 'campaign' ? `<p class="project-text"><span class="show-toggle" href="" id=${`show-${idx}`}>Show the full description</span> or <a href="${project.news}" target="_blank">read the news coverage</a></p>` : ''
 			}
 			<div class="project-images">
 				${imagesForAdding.join('')}

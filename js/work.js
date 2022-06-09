@@ -62,9 +62,9 @@ const pastWork = [
 	{
 		project:"Fight the TPP",
 		role:"Developer & Campaigner",
-		type:"software",
+		type:"both",
 		description:`To bring attention to the Trans Pacific Partnership I built a pair of websites intended to get people talking. The first was a site that looks like a page where one can download the text, but upon trying to click the link, the button would run away from the mouse.
-		<br /><br />The second site presented a series of the worse parts of the TPP with amusing ways of saying, "fuck that." Together, they generated millions of hits and tens of thousands of new petition signatures.`,
+		<br /><br />The second site presented a series of the worse parts of the TPP with amusing ways of saying, "fuck that." Together, they generated millions of hits and tens of thousands of new signups.`,
 		github:"https://github.com/DigitalCharlie/readthetpp",
 		site:"http://old.readthetpp.com/",
 		images:[
