@@ -18,10 +18,10 @@ const createWorkArticles = (projects) => {
 			</div>
 			<p class="project-text">${project.description}</p>
 			${
-				project.type === 'software' ? `<p class="project-text"><a href="${project.github}" target="_blank">Visit the site</a> or <a href="${project.github}" target="_blank">check out the project on Github</a></p>` : ''
+				project.type.includes('software') ? `<p class="project-text"><a href="${project.site}" target="_blank">Visit the site</a> or <a href="${project.github}" target="_blank">check out the project on Github</a></p>` : ''
 			}
 			${
-				project.type === 'campaign' ? `<p class="project-text"><a href="${project.github}" target="_blank">Read the news coverage</a></p>` : ''
+				project.type === 'campaign' ? `<p class="project-text"><a href="${project.news}" target="_blank">Read the news coverage</a></p>` : ''
 			}
 			<div class="project-images">
 				${imagesForAdding.join('')}

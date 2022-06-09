@@ -1,7 +1,7 @@
 :root {
 	--black: #000000;
 	--gray: rgb(120, 120, 120);
-	--beige: #f6f6ed;
+	--beige: #f7f7f0;
 }
 
 * {
@@ -43,6 +43,10 @@ p, a {
 	font-weight:100;
 }
 
+p {
+	max-width:750px;
+}
+
 ul {
 	margin-top:0;
 }
@@ -61,6 +65,25 @@ a {
 
 a:hover {
 	color:var(--gray)
+}
+
+/* CONTACT SECTION */
+.contact {
+	list-style-type: none;
+	padding-left:0;
+	display:flex;
+}
+
+.contact > li {
+	padding: 0 20px 0 0;
+}
+
+/* SKILLS */
+
+.skills {
+	font-size:.85em;
+	font-weight:100;
+	columns:3;
 }
 
 /* WORK FILTER! */
@@ -108,13 +131,14 @@ a:hover {
 		font-size:1.25em;
 	}
 	main {
-		display:flex;
 		gap:10px;
-		padding:0;
+    display: grid;
+    gap: 10px;
+    padding: 0;
+    grid-template-columns: 33% 66%;
 	}
 
 	section {
-		flex-basis:1;
 		padding:2vw;
 	}
 
@@ -126,7 +150,6 @@ a:hover {
 	}
 
 	.work {
-		flex:2;
 		margin-top:0;
 	}
 }
