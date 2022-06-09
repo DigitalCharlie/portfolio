@@ -33,6 +33,25 @@ article {
 	opacity:.7;
 }
 
+.project-text {
+	transition:.75s;
+	max-height:100vh;
+}
+
+.short {
+	max-height:75px;
+	overflow:hidden;
+}
+
+.show-toggle {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.show-toggle:hover {
+	color:var(--gray)
+}
+
 /* IMAGE MODAL */
 
 #image-modal {
