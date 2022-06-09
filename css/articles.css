@@ -34,13 +34,17 @@ article {
 }
 
 .project-text {
-	transition:.75s;
+	transition:1.25s;
 	max-height:100vh;
 }
 
 .short {
 	max-height:75px;
 	overflow:hidden;
+	text-overflow: ellipsis;
+	-Webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
 }
 
 .show-toggle {
