@@ -11,19 +11,19 @@ const pastWork = [
 		images:[
 			{
 				image:"images/fair/intro-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"When players first wake up each morning they're greeted with the same message — the crow of a rooster awakening them from slumber. Though the screen looks the same at first, there are more choices on successive days."
 			},
 			{
 				image:"images/fair/continue-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"Screens transition from location to location with a distinct set of options at each place. This is the scene outside the inn on the first day."
 			},
 			{
 				image:"images/fair/new-day.gif",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"At the end of each day, players head back to the inn — and when there are new options, they fade in after a moment to make it clear that a new choice is now available. One of my favorite parts about this sequence is having matched backdrops with different lighting, creating a smooth transition between times."
 			},
 			{
 				image:"images/fair/history-screenshot.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"A player's entire history is available by clicking 'full history' in the upper right. It has every dialogue option they saw on every previous day."
 			}
 		]
 	},
@@ -38,25 +38,25 @@ const pastWork = [
 		site:"https://bargewright.netlify.app/",
 		images:[
 			{
-				image:"images/bargewright/charhome.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
 				image:"images/bargewright/loginscreen.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/magicitem.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/bargewright/newadv.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"When users first come to the site, they're presented with an option to create an account or login."
 			},
 			{
 				image:"images/bargewright/userhome.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
+				description:"A user's hjomepage show all their characters, which can be sorted by any column. In addition, there's a quick link to jump to logging a new adventure for any character right on the homepage."
+			},
+			{
+				image:"images/bargewright/charhome.png",
+				description:"A character's homepage is full of information — their past adventures, magic items, story awards, current gold, and so much more. Each column can be sorted, and magic items can be filtered by multiple categories."
+			},
+			{
+				image:"images/bargewright/newadv.png",
+				description:"Users can enter the full set of options to log an adventure for a character, from adventure code to the magic items used/destroyed during the adventure."
+			},
+			{
+				image:"images/bargewright/magicitem.png",
+				description:"When users enter the name of a magic item, if it's in the SRD it's pulled in automatically and populates the fields. Otherwise, players can create it themselves. "
+			},
 		]
 	},
 	{
@@ -70,19 +70,19 @@ const pastWork = [
 		images:[
 			{
 				image:"images/tpp/read-tpp-before.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"When users first get to the page, it looks similar to how the Office of the US Trade Representative site used to look — same colors and logos."
 			},
 			{
 				image:"images/tpp/read-tpp-after.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The screen users see after the button runs away for a few seconds, giving more information and a way to take action."
 			},
 			{
 				image:"images/tpp/read-tpp.gif",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The effect of the button running away — fleeing using some simple javascript."
 			},
 			{
 				image:"images/tpp/fuck-tpp.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"There were dozens of different facts about the TPP paired with rejection statements, and each time the page is loaded or a new one is called, a new pair is created."
 			}
 		]
 	},
@@ -96,24 +96,24 @@ const pastWork = [
 		news:"https://www.sfgate.com/bayarea/article/Anti-fracking-demonstrators-march-through-Oakland-6068760.php",
 		images:[
 			{
-				image:"images/mrcl/mrcl-frack-whack.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/mrcl/mrcl-hs-group.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
 				image:"images/mrcl/mrcl-march-front.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The front of the march — led by frontline activists dealing with fracking in their communities."
 			},
 			{
 				image:"images/mrcl/mrcl-meme.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"At the time, it was the largest anti-fracking march that had ever happened in the US."
+			},
+			{
+				image:"images/mrcl/mrcl-frack-whack.jpeg",
+				description:"Unite Here brought a large contingent to the march, including many members' kids."
+			},
+			{
+				image:"images/mrcl/mrcl-hs-group.jpeg",
+				description:"A couple of high school groups organized buses and transportation to come to the march."
 			},
 			{
 				image:"images/mrcl/mrcl-rally.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"Before the march, we held a rally in Oscar Grant Plaza."
 			}
 		]
 	},
@@ -129,29 +129,31 @@ const pastWork = [
 		news:'https://www.nytimes.com/2014/09/22/nyregion/new-york-city-climate-change-march.html',
 		images:[
 			{
-				image:"images/pcm2014/final-count.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				image:"images/pcm2014/pcm-march-front.jpeg",
+				description:"This is one of my favorite images because it's from right when the march started — 15 minutes ahead of schedule. There were so many people we needed to step off early."
 			},
 			{
-				image:"images/pcm2014/flood-wall-st.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				image:"images/pcm2014/final-count.jpeg",
+				description:"Final counts of march attendance ranged from 300,000 to 400,000 people. The march completely took over downtown NYC."
+			},
+			{
+				image:"images/pcm2014/pcm-route-lineup-v6.png",
+				description:"Part of the beauty of the march was the narrative it told in its structure. Contingents self-organized and worked together on what their section would look like. We paired this image with a detailed breakdown of assembly locations by street."
+			},
+
+			{
+				image:"images/pcm2014/pcm-lucky.jpeg",
+				description:"This is an example of the art contingents organized to create. This is Lucky Tran, who coordinated the scientists contingent in the 'the debate is over' section."
 			},
 			{
 				image:"images/pcm2014/pcm-hub-gif.gif",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"We set people up to self organize by posing a question to them — who do they want to organize with? And then we let people go from there. We set every hub up with a suite of tools along with digital support."
 			},
+
 			{
-				image:"images/pcm2014/pcm-hub-image.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				image:"images/pcm2014/flood-wall-st.png",
+				description:"The day after the march a subset of the organizers coordinated a mass civil disobedience, calling out the role that Wall Street plays in the climate crisis. Over 2,000 people risked arrest."
 			},
-			{
-				image:"images/pcm2014/pcm-lucky.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/pcm2014/pcm-march-front.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
 		]
 	},
 	{
@@ -165,19 +167,19 @@ const pastWork = [
 		images:[
 			{
 				image:"images/pcm2017/pcm-17-banners.jpeg",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The march filled the streets around the national mall."
 			},
 			{
 				image:"images/pcm2017/pcm-17-site.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"We worked hard to tie the marches together and show a common trajectory — on the site, we used the 2014 march slogan as a backdrop to what we needed in the moment: to resist, build and rise."
 			},
 			{
 				image:"images/pcm2017/pcm-17-wide.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The march was organized into contingents again — this time with parachute banners playing a central role in giving a clear visual identity to the march that was also visible from above where we knew photos would be taken."
 			},
 			{
 				image:"images/pcm2017/pcm2017-route-map-v6.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"We took in lessons from other marches that spring and made sure to do more than just mark the march route and setup on the map."
 			}
 		]
 	},
