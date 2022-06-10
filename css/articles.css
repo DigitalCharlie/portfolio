@@ -20,7 +20,7 @@ article {
 	display:flex;
 	gap:15px;
 	margin-top:10px;
-	overflow-x:scroll;
+	overflow-x:auto;
 }
 
 .work-image {
