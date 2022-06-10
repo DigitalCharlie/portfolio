@@ -194,29 +194,25 @@ const pastWork = [
 		site:"https://roaming-spoon.herokuapp.com/",
 		images:[
 			{
-				image:"images/roaming/create-review.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/roaming/detail-page-1.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
-				image:"images/roaming/detail-page-2.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			},
-			{
 				image:"images/roaming/landing-page.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The landing page for The Roaming Spoon, with a search form on top of a rotating carousel of images."
 			},
 			{
 				image:"images/roaming/results-page.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
+				description:"The results page, which displays all the trucks in the geography, both as a list and on a map. I was responsible for generating the search results and creating the map component."
 			},
 			{
-				image:"images/roaming/signup-page.png",
-				description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur accusantium rem? Optio, repellat fuga."
-			}
+				image:"images/roaming/detail-page-1.png",
+				description:"The detail page for a single truck, which also highlights the current day of the week so users can see the day's hours immediately."
+			},
+			{
+				image:"images/roaming/detail-page-2.png",
+				description:"The menu and reviews are all visible on a truck's individual page. I built the star component (used other places throughout the site as well), and styled the menu section."
+			},
+			{
+				image:"images/roaming/dashboard.png",
+				description:"Users have a dashboard that displays trucks they've favorited as well as the ones they've recently viewed. I was responsible creating the favorite icon along with its functionality."
+			},
 		]
 	},
 ]
