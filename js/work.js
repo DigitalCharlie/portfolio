@@ -7,7 +7,7 @@ const pastWork = [
 		<br /><br />
 		I built the game as a choose your own adventure game that loops back on itself with shifting options using HTML, CSS and javascript. The game takes 1-3 hours to complete.`,
 		github:"https://github.com/DigitalCharlie/a-day-at-the-fair",
-		site:"https://www.digitalcharlie.com/a-day-at-the-fair/",
+		site:"https://digitalcharlie.github.io/a-day-at-the-fair/",
 		images:[
 			{
 				image:"images/fair/intro-screenshot.png",
